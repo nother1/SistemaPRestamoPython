@@ -1,0 +1,61 @@
+# --- Carpetas de Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Entornos virtuales ---
+venv/
+env/
+.venv/
+ENV/
+
+# --- Configuración del sistema / IDE ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- Archivos temporales ---
+*.log
+*.tmp
+*.bak
+*.old
+
+# --- Archivos de compilación o empaquetado ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Archivos de entorno o credenciales ---
+.env
+*.env
+.env.local
+.env.production
+.env.development
+.env.test
+
+# --- Archivos de base de datos ---
+*.sqlite3
+*.db
+*.sql
+
+# --- Archivos de test ---
+.coverage
+htmlcov/
+.tox/
+.nox/
+pytest_cache/
+
+# --- Documentación generada ---
+docs/_build/
+site/
+
+# --- Archivos de despliegue ---
+*.tar.gz
+*.zip
+
+# --- Otros ---
+pip-log.txt
+pip-delete-this-directory.txt
